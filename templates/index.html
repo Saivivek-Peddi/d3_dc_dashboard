@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jarvis</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dc/3.1.3/dc.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css" type="text/css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/3.1.3/dc.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" ></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	            <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+	        <a class="navbar-brand" href="#"><img src="../static/img/billionaire.png" class="logo"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right"></ul>
+        </div>
+	  </div>
+	</nav>
+
+	<main>
+    <section class="section">
+        <div class="container">
+            <div class="row col-md-12 text-center">
+                <h3>Data Visualization Of The DCR</h3>
+                <hr class="horizontal-line1">
+            </div>
+
+            <div class="row">
+                <!-- <div class="col-md-5" id="name_chart">
+                    <p class="text-left"><strong>Branch</strong></p>
+                </div>
+                 -->
+                 <div class="col-md-4" id="gender_chart"></div>
+                 <div class="col-md-8" style="text-align:right" id="SLA_chart"></div>
+                 <div class="col-md-8" style="text-align:right" id="source_chart"></div>
+                 <div class="col-md-8" style="text-align:right" id="trtypeChart"></div>
+                 <div class="col-md-8" style="text-align:right" id="trn_status_chart"></div>
+            </div>
+            <div class="row">
+                <!-- <div class="col-md-5" id="trtypeChart"></div> -->
+                <!-- <div class="col-md-7" id="trn_status_chart"></div> -->
+            </div>
+        </div>
+    </section>
+	</main>
+    <script type="text/javascript" src="../static/js/graphs.js"></script>
+    <footer>
+        <div class="container text-center">
+            <p>Jarvis - Service Transformation Team </p>
+        </div>
+    </footer>
+</body>
+
+</html>
