@@ -1,7 +1,8 @@
 # Interactive D3 Dashboard
 Built using - flask, dc, d3, bootstrap.
 
-Live Demo of the site - https://fundwise-karvy.herokuapp.com/ (Wait for 10 secs for the data to load. Don't reload)
+Live Demo of the site - https://fundwise-karvy.herokuapp.com/ 
+Wait for 10 secs for the data to load. Don't reload!
 
 ## Steps to host the in your local PC
 1. Clone the repo and go to d3_dc_dashboard.
